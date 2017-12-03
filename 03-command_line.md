@@ -19,14 +19,27 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+> > pwd - show current working directory path
+> > ls - show files & folders in current directory
+> > cd .. - move up one directory
+> > mkdir - creating a directory
+> > cp - copy file
+> > rm -r - deleting a directory
+> > touch - creating a file using `touch` command
+> > rm filename - deleting a file
+> > mv filename newfilename - renaming a file
+> > ls -a - listing hidden files
+> > cp directory/file directory/ - copying a file from one directory to another
+> > mv - move a file
+
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls`
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -34,7 +47,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+> > `ls'       - show files and folders in current directory
+> > `ls -a'	   - show all files and folders in current directory (including hidden)
+> > `ls -l`    - show all files & folders in long format
+> > `ls -lh`   - print readable file sizes
+> > `ls -lah`  - show long format with readable file size
+> > `ls -t`    - sort files by date & time
+> > `ls -Glp`  - show long files, dont print group name, append '/' to directories
+
 
 ---
 
@@ -42,7 +63,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+> > '-g'	- display files by timestamp
+> > '-m'	- displays names as comma separated list
+> > '-x'	- displays files as rows across the screen
+> > '-b'	- displays nonprinting characters in octal
+> > '-R'	- displays subdirectories
+
 
 ---
 
@@ -50,7 +77,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It allows you to build & execute commands from standard input. Some commands only take input as arguments.
+> > An example of this is using the find uility to retreive a long list of file names and trhen using xargs rm to remove all of those filenames.
 
  
 
