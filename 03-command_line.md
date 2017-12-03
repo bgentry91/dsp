@@ -21,16 +21,27 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > >
 > > pwd - show current working directory path
+
 > > ls - show files & folders in current directory
+
 > > cd .. - move up one directory
+
 > > mkdir - creating a directory
+
 > > cp - copy file
+
 > > rm -r - deleting a directory
+
 > > touch - creating a file using `touch` command
+
 > > rm filename - deleting a file
+
 > > mv filename newfilename - renaming a file
+
 > > ls -a - listing hidden files
+
 > > cp directory/file directory/ - copying a file from one directory to another
+
 > > mv - move a file
 
 
@@ -49,11 +60,17 @@ What do the following commands do:
 
 > > 
 > > `ls'       - show files and folders in current directory
+
 > > `ls -a'	   - show all files and folders in current directory (including hidden)
+
 > > `ls -l`    - show all files & folders in long format
+
 > > `ls -lh`   - print readable file sizes
+
 > > `ls -lah`  - show long format with readable file size
+
 > > `ls -t`    - sort files by date & time
+
 > > `ls -Glp`  - show long files, dont print group name, append '/' to directories
 
 
@@ -65,9 +82,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > >
 > > '-g'	- display files by timestamp
+
 > > '-m'	- displays names as comma separated list
+
 > > '-x'	- displays files as rows across the screen
+
 > > '-b'	- displays nonprinting characters in octal
+
 > > '-R'	- displays subdirectories
 
 
