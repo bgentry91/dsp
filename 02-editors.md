@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Emacs - it seems to be similarly as powerful as VI. The commands felt more intuitive intially.  I also feel that using Emacs will be better as a user in the long term.
 
 --
 
@@ -89,6 +89,4 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+>> I will use Emacs as a graphical editor - since I'll be using it as a terminal editor, I think it makes sense to continue using it as a graphical editor.
